@@ -1,0 +1,45 @@
+# SPDX-FileCopyrightText: Stefan Tatschner
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "exitcode"
+version = "0.1.0"
+description = "Preferred system exit codes as defined by sysexits.h"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rumpelsepp/exitcode"
+authors = ["Stefan Tatschner <stefan@rumpelsepp.org>"]
+maintainers = ["Stefan Tatschner <stefan@rumpelsepp.org>"]
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10"
+mypy = "^1.0"
+pylsp-mypy = "^0.6"
+pylsp-rope = "^0.1"
+python-lsp-black = "^1.2"
+python-lsp-server = "^1.7"
+reuse = "^1.0.0"
+flake8 = "^6.0.0"
+ruff = "^0.0.247"
+python-lsp-ruff = "^1.0.5"
+
+[tool.mypy]
+strict = true
+
+[tool.ruff]
+target-version = "py310"
+select = ["E", "F", "PL", "I"]
+
+[tool.black]
+target-version = ['py310']
