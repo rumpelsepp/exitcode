@@ -548,14 +548,14 @@ test = ["coverage", "pycodestyle", "pyflakes", "pylint", "pytest", "pytest-cov"]
 
 [[package]]
 name = "python-lsp-ruff"
-version = "1.1.0"
+version = "1.2.0"
 description = "Ruff linting plugin for pylsp"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "python-lsp-ruff-1.1.0.tar.gz", hash = "sha256:00bef12a89eea08e636949795a07f2a48373ee0c319d9439757b69b3d829eab5"},
-    {file = "python_lsp_ruff-1.1.0-py3-none-any.whl", hash = "sha256:88cb3bf423fc7101168ebc419cfae781eb8d63182f7eaf1d779f2c32eaa94000"},
+    {file = "python-lsp-ruff-1.2.0.tar.gz", hash = "sha256:945d514ceea15fcb89de3f43c755b5b56713800ed1fffbb3e677a720f1b0a9cc"},
+    {file = "python_lsp_ruff-1.2.0-py3-none-any.whl", hash = "sha256:c8f37cd46d57dfe5530c747945b418b0a8c00ae9e67bd7991972aced8eec00b4"},
 ]
 
 [package.dependencies]
