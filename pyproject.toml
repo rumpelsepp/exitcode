@@ -23,7 +23,7 @@ classifiers = [
 python = ">=3.10"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.10"
+black = ">=22.10,<24.0"
 mypy = "^1.0"
 pylsp-mypy = "^0.6"
 pylsp-rope = "^0.1"
